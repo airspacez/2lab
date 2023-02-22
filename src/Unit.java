@@ -1,7 +1,6 @@
 public abstract class Unit<T> extends GameObject implements Interaction<T> {
 
     private T id;
-    private int n;
     // Имя юнита
     private String name;
 
